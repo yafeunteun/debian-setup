@@ -4,3 +4,8 @@ Replace Caps Lock (most useless key in the world) with ctrl, convenient with Ema
 setxkbmap -option caps:ctrl_modifier
 #+END_SRC
 
+
+Make i3 available by default 
+#+BEGIN_SRC sh
+sudo update-alternatives --install /usr/bin/x-window-manager x-window-manager /usr/bin/i3 20
+#+END_SRC
