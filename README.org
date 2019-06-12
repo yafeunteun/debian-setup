@@ -13,3 +13,11 @@ Emacs no window as git editor
 #+BEGIN_SRC sh
 git config --global core.editor "emacs -nw"
 #+END_SRC
+
+
+Some useful aliases 
+#+BEGIN_SRC sh
+alias python=python3.7 
+alias pip=pip3 
+alias ee="emacs -nw"  # nm means no window aka run emacs in console insead of default GUI
+#+END_SRC
