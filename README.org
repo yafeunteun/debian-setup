@@ -20,4 +20,6 @@ Some useful aliases
 alias python=python3.7 
 alias pip=pip3 
 alias ee="emacs -nw"  # nm means no window aka run emacs in console insead of default GUI
+alias lr="ls -lrht"
+alias llr="ls -lrtha"
 #+END_SRC
